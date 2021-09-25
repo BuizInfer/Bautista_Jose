@@ -1,0 +1,336 @@
+/* ----------------------------------------------------------
+
+	Esta hoja de estilo me va a ayudar a darle el formato
+	a mi archivo html de la actividad 2.4.
+	Autor: Jose Natividad Bautista Lara.
+	Fecha: 24/09/2021
+
+------------------------------------------------------------ */
+
+/* ----------------------------------------------------- */
+/*  Este bloque contiene fondos y el estilo para el body */
+/*	Autor: Jose Natividad Bautista Lara					 */
+/* ----------------------------------------------------- */
+
+body.Index{ 
+	/* Carga el fondo*/  
+	background-image: url("../Multimedia/Imgs/Index.jpg");
+	/* Fondo estatico */
+	background-attachment: fixed;
+	/* Que el fondo no se repita */
+	background-repeat:no-repeat;
+	/* Ancho del contenido de la pagina */
+	width:100%;
+	/* Cambia el tamano del fondo */
+	background-size: 100% 100%;
+	/* Formato del texto */
+	text-align: center;
+	/* Posicion Estatica - Se queda fijo con el contenido. */
+	position: fixed;
+}
+body.BTF1{
+	/* Carga el fondo*/ 
+	background-image:url("../Multimedia/Imgs/BTF1.jpg");
+	/* Fondo estatico */
+	background-attachment: fixed;
+	/* Que el fondo no se repita */
+	background-repeat:no-repeat;
+	/* Ancho del contenido de la pagina */
+	width:98%;
+	/* Cambia el tamano del fondo */
+	background-size: 100% 103%;
+	/* Formato del texto */
+	text-align: center;
+}	
+body.BTF2{
+	/* Carga el fondo*/ 
+	background-image:url("../Multimedia/Imgs/BTF2.jpg");
+	/* Fondo estatico */
+	background-attachment: fixed;
+	/* Que el fondo no se repita */
+	background-repeat:no-repeat;
+	/* Ancho del contenido de la pagina */
+	width:98%;
+	/* Cambia el tamano del fondo */
+	background-size: 100% 100%;
+	/* Formato del texto */
+	text-align: center;
+}	
+body.BTF3{
+	/* Carga el fondo*/  
+	background-image:url("../Multimedia/Imgs/BTF3.jpg");
+	/* Fondo estatico */
+	background-attachment: fixed;
+	/* Que el fondo no se repita */
+	background-repeat:no-repeat;
+	/* Ancho del contenido de la pagina */
+	width:96%;
+	/* Cambia el tamano del fondo */
+	background-size: 100% 110%;
+	/* Formato del texto */
+	text-align: center;
+}
+
+/* ----------------------------------------------------- */
+/*  Este bloque contiene imagenes 						 */
+/*	Autor: Jose Natividad Bautista Lara					 */
+/* ----------------------------------------------------- */
+
+img.CoverP1{
+	/* Carga la imagen */
+	content: url("../Multimedia/Imgs/CoverPage1.jpg");
+	/* Cambia el tamano de la imagen */
+	width:200px; 
+	height:250px;
+	/* Flota la imagen*/
+	float:left;
+	/* Margen alrededor de la imagen*/
+	margin:0% 27%; 
+	/* Parametros para modificar tamano, forma, dimension y colores de los bordes de la imagen*/
+	border-width: 5px;
+	border-style: inset;  
+	border-radius:50px;
+	/* asignacion de los colores para los 4 lados. */
+	border-color: #78167b #4589a8 #4589a8 #78167b;
+}
+img.CoverP2{
+	/* Carga la imagen */
+	content: url("../Multimedia/Imgs/CoverPage2.jpg");
+	/* Cambia el tamano de la imagen */
+	width:200px; 
+	height:250px;
+	/* Flota la imagen*/	
+	float:left;
+	/* Margen alrededor de la imagen*/
+	margin:-16.3% 55.2%; 
+	/* Parametros para modificar tamano, forma, dimension y colores de los bordes de la imagen*/
+	border-width: 5px;
+	border-style: outset;  
+	border-radius:50px;
+	/* asignacion de los colores para los 4 lados. */
+	border-color: #4589a8 #78167b #78167b #4589a8;
+}
+img.CoverP3{
+	/* Carga la imagen */
+	content: url("../Multimedia/Imgs/CoverPage3.jpg");
+	/* Cambia el tamano de la imagen */
+	width:200px; 
+	height:250px; 
+	/* Flota la imagen*/
+	float:left; 
+	/* Margen alrededor de la imagen*/
+	margin:17.5% 50%; 
+	/* Parametros para modificar tamano, forma, dimension y colores de los bordes de la imagen*/
+	border-width: 5px;
+	border-style: outset;  
+	border-radius:50px;
+	/* asignacion de los colores para los 4 lados. */
+	border-color: #4589a8 #78167b #78167b #4589a8;
+}
+img.BTTF1{
+	/* Carga la imagen */
+	content: url("../Multimedia/Imgs/BTTF1.jpg");
+	/* Cambia el tamano de la imagen */
+	Width:500px;
+	height:650px;
+	/* Flota la imagen*/
+	float:left;
+	/* Margen alrededor de la imagen*/
+	margin: 80px 80px; 
+	/* Parametro para modificar dimension de los bordes de la imagen*/
+	border-radius:50px;
+}
+img.BTTF2{
+	/* Carga la imagen */
+	content: url("../Multimedia/Imgs/BTTF2.jpg");
+	/* Cambia el tamano de la imagen */
+	Width:500px;
+	height:650px;
+	/* Flota la imagen*/
+	float:left;
+	/* Margen alrededor de la imagen*/
+	margin: 80px 80px; 
+	/* Parametro para modificar dimension de los bordes de la imagen*/
+	border-radius:50px;
+}
+img.BTTF3{
+	/* Carga la imagen */
+	content: url("../Multimedia/Imgs/BTTF3.jpg");
+	/* Cambia el tamano de la imagen */
+	Width:500px;
+	height:650px;
+	/* Flota la imagen*/
+	float:left;
+	/* Margen alrededor de la imagen*/
+	margin: 80px 80px; 
+	/* Parametro para modificar dimension de los bordes de la imagen*/
+	border-radius:50px;
+}
+img.Netflix{
+	/* Carga la imagen */
+	content: url("../Multimedia/Imgs/Netflix.jpg");
+	/* Cambia el tamano de la imagen */
+	Width:150px;
+	height:150px;
+	/* Flota la imagen*/
+	float:right;
+	/* Margen alrededor de la imagen*/
+	margin: 10px 150px;
+	/* Parametro para modificar dimension de los bordes de la imagen*/
+	border-radius:15px;	
+}	
+/* ----------------------------------------------------- */
+/*  Este bloque contiene fuentes para el texto 			 */
+/*	Autor: Jose Natividad Bautista Lara					 */
+/* ----------------------------------------------------- */
+
+/* Permite insertar una fuente propia de una ubicacion*/
+@font-face{
+	font-family: BTTF;
+	src: url("../Multimedia/Fuentes/BTTF.ttf");
+}
+font.Crete_R{
+	font-family: 'Crete Round', serif;
+	color: white;
+}
+font.Alfa{
+	font-family: 'Alfa Slab One', cursive;
+	color: white;
+}	
+/* ----------------------------------------------------- */
+/*  Este bloque contiene titulos 						 */
+/*	Autor: Jose Natividad Bautista Lara					 */
+/* ----------------------------------------------------- */
+
+p.Titulo{
+	/* Tipo de letra */
+	font-family: BTTF;
+	/* Color de letra */
+	color: #f9c12e;
+	/* Tamano de letra */
+	font-size: 200%;
+	/* Margen alrededor del contenido */
+	margin: auto;
+	/* Titulo a la izquierda */
+	text-align: left;
+	/* la tabulación o indentación de la primera línea del texto de un elemento */
+	text-indent: 300px;
+	/* Margen-Contorno en las letras */
+	-webkit-text-stroke: .8px #0dbceb;
+}
+p.Pelicula_P{
+	/* Tipo de letra */
+	font-family: BTTF;  
+	/* Color de letra */
+	color: #ce3923;
+	/* Tamano de letra */
+	font-size: 300%;
+	/* Margen alrededor del contenido */
+	margin: 20px 0px;
+	/* Titulo a la izquierda */
+	text-align: left;
+	/* la tabulación o indentación de la primera línea del texto de un elemento */
+	text-indent: 60px;
+	/* Margen-Contorno en las letras */
+	-webkit-text-stroke: 1px #0dbceb;
+}
+p.Pelicula_Sig{
+	/* Tipo de letra */
+	font-family: BTTF;  
+	/* Color de letra */
+	color: #ce3923;
+	/* Tamano de letra */
+	font-size: 200%;
+	/* Margen alrededor del contenido */
+	margin: -70px 10px;
+	/* Titulo a la derecha */
+	text-align: right;
+	/* la tabulación o indentación de la primera línea del texto de un elemento */
+	text-indent: 100px;
+	/* Margen-Contorno en las letras */
+	-webkit-text-stroke: 1px #0dbceb;
+}
+p.Pelicula_Ant{
+	/* Tipo de letra */
+	font-family: BTTF;  
+	/* Color de letra */
+	color: #ce3923;
+	/* Tamano de letra */
+	font-size: 200%;
+	/* Margen alrededor del contenido */
+	margin: 10px 0px;
+	/* Titulo a la izquierda */
+	text-align: left;
+	/* la tabulación o indentación de la primera línea del texto de un elemento */
+	text-indent: 50px;
+	/* Margen-Contorno en las letras */
+	-webkit-text-stroke: 1px #0dbceb;
+}
+/* ----------------------------------------------------- */
+/*  Este bloque contiene parrafos-textos 				 */
+/*	Autor: Jose Natividad Bautista Lara					 */
+/* ----------------------------------------------------- */
+
+p.Crete{
+	/* Tipo de letra */
+	font-family: 'Crete Round', serif;
+	/* Color de letra */
+	color: #f9c12e;
+	/* Tamano de letra */
+	font-size: 90%;
+	/* Margen alrededor del contenido */
+	margin: auto;
+	/* Titulo a la izquierda */
+	text-align: left;
+	/* la tabulación o indentación de la primera línea del texto de un elemento */
+	text-indent: 450px;
+}
+p.Contenido_V1{
+	/* Tipo de letra */
+	font-family: 'Alfa Slab One', cursive;
+	/* Tamano de letra */
+	font-size: 170%;
+	/* Color de letra */
+	color: #dbecf6;
+	/* Titulo justificado */
+	text-align: justify;
+	/* Margen-Contorno en las letras */
+	-webkit-text-stroke: .8px black;
+}
+p.Contenido_V2{
+	/* Tipo de letra */
+	font-family: 'Alfa Slab One', cursive;
+	/* Tamano de letra */
+	font-size: 184.5%;
+	/* Color de letra */
+	color: #f1ae81;
+	/* Titulo justificado */
+	text-align: justify;
+	/* Margen-Contorno en las letras */
+	-webkit-text-stroke: .8px black;
+}	
+p.Net{
+	/* Tipo de letra */
+	font-family: 'Crete Round', serif;
+	/* Tamano de letra */
+	font-size: 250%;
+	/* Color de letra */
+	color: #acdaff;
+	/* Titulo a la derecha */
+	text-align: right;
+	/* Margen alrededor del contenido */
+	margin: auto;
+}
+/* ----------------------------------------------------- */
+/*  Este bloque contiene modificaciones a hipervinculos	 */
+/*	Autor: Jose Natividad Bautista Lara					 */
+/* ----------------------------------------------------- */
+
+a{
+	/* Permite quita el subrayado de los hipervinculos */
+	text-decoration:none;
+	/* Cambiar color default de hipervinculo*/
+	color: #ce3923;
+	/* Margen-Contorno en las letras */
+	-webkit-text-stroke: .8px #0dbceb;
+}	
